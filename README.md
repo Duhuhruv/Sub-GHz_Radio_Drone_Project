@@ -1,5 +1,8 @@
 ﻿# DroneRF_Project
-TI CC1312R LaunchPad image transfer.
+
+ Report: https://drive.google.com/file/d/1hLyYco8pAcUMKnUi00cZ6kdRbGmCKY5S/view?usp=sharing
+ 
+Sub Ghz radio using TI CC1312R Launchpad.
 - **DroneTx**: RF TX; stages JPEG from UART.
 - **GroundStation**: RF RX; reassembles and saves JPEG.
 
