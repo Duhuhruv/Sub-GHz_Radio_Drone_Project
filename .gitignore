@@ -1,0 +1,56 @@
+# Build output
+Debug/
+Release/
+*/Debug/
+*/Release/
+build/
+out/
+output/
+
+# CCS / TI artifacts
+*.launch
+*.ccsproject
+*.ccsmetadata
+*.log
+*.tmp
+*.d
+*.o
+*.obj
+*.map
+*.out
+*.elf
+*.bin
+*.axf
+*.hex
+*.a
+*.aem4f
+*.aem4
+*.cmd.genlibs
+*.linkInfo.xml
+
+# SysConfig (keep inputs, ignore caches)
+syscfg/.syscfg/
+syscfg/.generated/
+syscfg/Release/
+syscfg/Debug/
+
+# Eclipse/CCS metadata
+.settings/
+.metadata/
+.project
+.cproject
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep essentials
+!*.c
+!*.h
+!*.cmd
+!*.syscfg
+!Makefile
+!README.md
+!LICENSE
+!*.txt
